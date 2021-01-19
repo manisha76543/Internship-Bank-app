@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+     app:cardUseCompatPadding="true"
+    app:cardCornerRadius="6dp"
+    android:elevation="4dp"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="126dp"
+        android:layout_margin="10dp"
+        android:background="@color/cardbg"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/UserName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textColor="@color/headercolor"
+            android:textSize="25sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/UserEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:clickable="true"
+            android:textSize="25sp"
+            android:visibility="visible"></TextView>
+
+        <TextView
+            android:id="@+id/UserAmount"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:clickable="true"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:id="@+id/UserPhn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:clickable="true"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:visibility="invisible"></TextView>
+
+        <TextView
+            android:id="@+id/UserAccount"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:clickable="true"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:visibility="invisible"></TextView>
+
+        <TextView
+            android:id="@+id/UserIFSC"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:clickable="true"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:visibility="invisible"></TextView>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
